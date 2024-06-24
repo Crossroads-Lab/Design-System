@@ -31,14 +31,30 @@ html, body {
   font-family: var(--font-family-fat) !important;
 }
 
+body.font-family-fat {
+  font-family: var(--font-family-fat);
+}
+
 .font-family-handwriting {
   font-family: var(--font-family-handwriting) !important;
+}
+
+body.font-family-handwriting {
+  font-family: var(--font-family-handwriting);
 }
 
 .font-family-comic-book {
   font-family: var(--font-family-comic-book) !important;
 }
 
+body.font-family-comic-book {
+  font-family: var(--font-family-comic-book);
+}
+
 .font-family-rounded {
   font-family: var(--font-family-rounded) !important;
+}
+
+body.font-family-rounded {
+  font-family: var(--font-family-rounded);
 }
