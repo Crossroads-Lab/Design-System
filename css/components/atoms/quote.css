@@ -1,0 +1,16 @@
+@import '../common.css';
+
+/* 
+ * Classes
+ * -------
+ */
+.quote {
+  --_font-size: var(--size-14-16);
+  --_font-weight: 400;
+  --_line-height: 150%;
+  --_font-style: italic;
+  font-size: var(--_font-size);
+  line-height: var(--_line-height);
+  font-weight: var(--_font-weight);
+  font-style: var(--_font-style);
+}

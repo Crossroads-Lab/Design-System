@@ -1,0 +1,117 @@
+@import '../common.css';
+
+/* 
+ * Classes
+ * -------
+ */
+ .button {
+  /* Display */
+  overflow: hidden;
+  opacity: 1;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  /* Alignment */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  /* Size and spacing */
+  --_min-size: var(--size-32-40);
+  --_border-radius: var(--border-radius);
+  --_padding-horizontal: 12px;
+  --_padding-vertical: 8px;
+  --_gap: 8px;
+  min-width: var(--_min-size);
+  min-height: var(--_min-size);
+  border-radius: var(--_border-radius);
+  padding: var(--_padding-vertical) var(--_padding-horizontal);
+  gap: var(--_gap);
+  /* Font */
+  --_font-size: var(--size-14-16);
+  font-size: var(--_font-size);
+  font-weight: 500;
+  text-wrap: balance;
+  text-decoration: none;
+  -webkit-decoration: none;
+  -webkit-text-decoration: none;
+  /* To prevent long press text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* pointer event */
+  pointer-events: auto;
+  /* animation */
+  transition: var(--transition-time);
+ }
+
+/* To prevent wrapping */
+.button.nowrap,
+.button.nowrap > * {
+  text-wrap: nowrap;
+  white-space: nowrap;
+}
+.button.nowrap  {
+  flex-shrink: 0;
+}
+
+/* For disabled states */
+.button:disabled,
+.button.disabled {
+  pointer-events: none !important;
+  opacity: 0.5;
+}
+
+/* Small button */
+.button.small {
+  --_min-size: var(--size-24-32);
+  --_padding-horizontal: 10px;
+  --_padding-vertical: 6px;
+  --_font-size: var(--size-12-14);
+}
+
+/* Medium button */
+.button.medium {
+  --_min-size: var(--size-40-48);
+  --_padding-horizontal: 14px;
+  --_padding-vertical: 10px;
+  --_font-size: var(--size-16-18);
+}
+
+/* Large button */
+.button.large {
+  --_min-size: var(--size-64-72);
+  --_padding-horizontal: 16px;
+  --_padding-vertical: 12px;
+  --_font-size: var(--size-16-18);
+}
+
+/* Square button */
+.button.square {
+  --_border-radius: var(--border-radius-square);
+}
+
+/* Round button */
+.button.round {
+  --_border-radius: var(--border-radius-round);
+}
+
+/* Smooth button */
+.button.smooth {
+  --_border-radius: var(--border-radius-smooth);
+}
+
+/* Hover, only for non-touchable devices */
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .button:not(:disabled):not(.disabled):hover {
+    opacity: 0.8;
+  }
+
+  .button:disabled,
+  .button.disabled {
+    cursor: not-allowed;
+  }
+}

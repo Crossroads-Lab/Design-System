@@ -1,0 +1,52 @@
+@import '../common.css';
+
+/* 
+ * Classes
+ * -------
+ */
+ .link, .link:visited, .link:active, .link:disabled {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 1;
+  /* Appearance */
+  text-decoration: none;
+  -webkit-decoration: none;
+  -webkit-text-decoration: none;
+  /* pointer event */
+  pointer-events: auto;
+  /* annimation */
+  transition: var(--transition-time);
+}
+
+.link.dotted {
+  text-decoration: underline dotted;
+  -webkit-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+}
+
+/* For disabled states */
+.button:disabled,
+.button.disabled {
+  pointer-events: none !important;
+  opacity: 0.8;
+}
+
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .link, .link:visited, .link:active {
+    cursor: pointer;
+  }
+
+  .link:hover {
+    opacity: 0.8;
+  }
+
+  .link:active:hover {
+    opacity: 1;
+  }
+
+  .link:disabled,
+  .link.disabled {
+    cursor: not-allowed;
+  }
+}

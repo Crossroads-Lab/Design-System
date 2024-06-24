@@ -1,0 +1,35 @@
+@import '../common.css';
+
+/* 
+ * Classes
+ * -------
+ */
+.icon-container .icon,
+.icon {
+  --_size: var(--size-20-24);
+}
+
+.icon {
+  height: var(--icon-size);
+  min-width: auto;
+  min-height: auto;
+  width: auto;
+  padding: 0;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--_size);
+}
+
+.icon-container .icon.small,
+.icon.small {
+  --_size: var(--size-12-18);
+}
+
+.icon-container .icon.large,
+.icon.large {
+  --_size: var(--size-24-32);
+}

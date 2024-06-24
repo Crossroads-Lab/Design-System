@@ -1,0 +1,11 @@
+/* 
+ * Classes
+ * -------
+ */
+.border-colapse {
+  border-collapse: collapse;
+}
+
+.border-colapse-separate {
+  border-collapse: separate;
+}

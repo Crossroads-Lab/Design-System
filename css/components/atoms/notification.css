@@ -1,0 +1,56 @@
+@import '../common.css';
+
+/* 
+ * Classes
+ * -------
+ */
+.notification,
+.error-notification,
+.warning-notification,
+.success-notification,
+.info-notification,
+.light-notification,
+.dark-notification {
+  position: relative;
+  overflow: visible;
+  --_size: var(--size-8-10);
+  --_offset: calc(4px - var(--size-0-8));
+  --_border-radius: var(--border-radius-round);
+}
+
+.notification::after,
+.error-notification::after,
+.warning-notification::after,
+.success-notification::after,
+.info-notification::after,
+.light-notification::after,
+.dark-notification::after {
+  content: '';
+  width: var(--_size);
+  height: var(--_size);
+  background: var(--red);
+  border-radius: var(--_border-radius);
+  position: absolute;
+  top: var(--_offset);
+  right: var(--_offset);
+}
+
+.warning-notification::after {
+  background: var(--orange);
+}
+
+.success-notification::after {
+  background: var(--green);
+}
+
+.info-notification::after {
+  background: var(--blue);
+}
+
+.light-notification::after {
+  background: var(--light);
+}
+
+.dark-notification::after {
+  background: var(--dark);
+}

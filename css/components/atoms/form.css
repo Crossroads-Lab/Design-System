@@ -1,0 +1,36 @@
+@import '../common.css';
+
+/* 
+ * Classes
+ * -------
+ */
+.form {
+  --_padding: var(--padding-half);
+  --_gap: var(--gap-half);
+  --_border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--_border-radius);
+  gap: var(--_gap);
+  align-items: flex-end;
+}
+
+.form.left {
+  align-items: flex-start;
+}
+
+.form.middle {
+  align-items: center;
+}
+
+.form.right {
+  align-items: flex-end;
+}
+
+.form .label {
+  width: 100%;
+}
+
+.form .label:not(.label:first-child) {
+  padding-top: var(--_gap);
+}
