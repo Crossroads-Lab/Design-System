@@ -1,0 +1,39 @@
+/* 
+ * Classes
+ * -------
+ */
+.text-decoration-underline {
+  text-decoration-line: underline !important;
+}
+
+.text-decoration-overline {
+  text-decoration-line: overline !important;
+}
+
+.text-decoration-underline.text-decoration-overline {
+  text-decoration-line: underline overline !important;
+}
+
+.text-decoration-line-through {
+  text-decoration-line: line-through !important;
+}
+
+.text-decoration-blink {
+  text-decoration-line: blink !important;
+}
+
+.text-decoration-dotted {
+  text-decoration-style: dotted !important;
+}
+
+.text-decoration-wavy {
+  text-decoration-style: wavy !important;
+}
+
+.text-decoration-double {
+  text-decoration-style: double !important;
+}
+
+.text-decoration-dashed {
+  text-decoration-style: dashed !important;
+}

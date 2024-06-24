@@ -1,0 +1,526 @@
+@import './gradient.css';
+
+/* 
+ * Classes
+ * -------
+ */
+
+/* Disabling background */
+.background-none {
+  background: none !important;
+}
+
+.background-inherit {
+  background: inherit !important;
+}
+
+/* Unsaturated background color */
+.background-white {
+  background: var(--white) !important;
+}
+
+.background-black {
+  background: var(--black) !important;
+}
+
+.background-gray {
+  background: var(--gray) !important;
+}
+
+.background-dark {
+  background: var(--dark) !important;
+}
+
+.background-light {
+  background: var(--light) !important;
+}
+
+.background-semi-dark {
+  background: var(--semi-dark) !important;
+}
+
+.background-semi-light {
+  background: var(--semi-light) !important;
+}
+
+/* Primary text color */
+.background-red {
+  background: var(--red) !important;
+}
+
+.background-green {
+  background: var(--green) !important;
+}
+
+.background-blue {
+  background: var(--blue) !important;
+}
+
+/* Secondary background color */
+.background-orange {
+  background: var(--orange) !important;
+}
+
+.background-yellow {
+  background: var(--yellow) !important;
+}
+
+.background-cyan {
+  background: var(--cyan) !important;
+}
+
+.background-purple {
+  background: var(--purple) !important;
+}
+
+.background-pink {
+  background: var(--pink) !important;
+}
+
+/* Nuanced background color*/
+.background-brown {
+  background: var(--brown) !important;
+}
+
+.background-olive {
+  background: var(--olive) !important;
+}
+
+.background-ocean {
+  background: var(--ocean) !important;
+}
+
+.background-lime {
+  background: var(--lime) !important;
+}
+
+.background-teal {
+  background: var(--teal) !important;
+}
+
+.background-chocolate {
+  background: var(--chocolate) !important;
+}
+
+.background-leather {
+  background: var(--leather) !important;
+}
+
+.background-cream {
+  background: var(--cream) !important;
+}
+
+.background-peach {
+  background: var(--peach) !important;
+}
+
+.background-leaf {
+  background: var(--leaf) !important;
+}
+
+.background-blueberry {
+  background: var(--blueberry) !important;
+}
+
+/* Shaded background color*/
+.background-gray-1 {
+  background: var(--gray-1) !important;
+}
+.background-gray-2 {
+  background: var(--gray-2) !important;
+}
+.background-gray-3 {
+  background: var(--gray-3) !important;
+}
+.background-gray-4 {
+  background: var(--gray-4) !important;
+}
+.background-gray-5 {
+  background: var(--gray-5) !important;
+}
+.background-gray-6 {
+  background: var(--gray-6) !important;
+}
+
+.background-red-1 {
+  background: var(--red-1) !important;
+}
+.background-red-2 {
+  background: var(--red-2) !important;
+}
+.background-red-3 {
+  background: var(--red-3) !important;
+}
+
+.background-green-1 {
+  background: var(--green-1) !important;
+}
+.background-green-2 {
+  background: var(--green-2) !important;
+}
+.background-green-3 {
+  background: var(--green-3) !important;
+}
+
+.background-blue-1 {
+  background: var(--blue-1) !important;
+}
+.background-blue-2 {
+  background: var(--blue-2) !important;
+}
+.background-blue-3 {
+  background: var(--blue-3) !important;
+}
+
+.background-orange-1 {
+  background: var(--orange-1) !important;
+}
+.background-orange-2 {
+  background: var(--orange-2) !important;
+}
+.background-orange-3 {
+  background: var(--orange-3) !important;
+}
+
+.background-yellow-1 {
+  background: var(--yellow-1) !important;
+}
+.background-yellow-2 {
+  background: var(--yellow-2) !important;
+}
+.background-yellow-3 {
+  background: var(--yellow-3) !important;
+}
+
+.background-purple-1 {
+  background: var(--purple-1) !important;
+}
+.background-purple-2 {
+  background: var(--purple-2) !important;
+}
+.background-purple-3 {
+  background: var(--purple-3) !important;
+}
+
+.background-pink-1 {
+  background: var(--pink-1) !important;
+}
+.background-pink-2 {
+  background: var(--pink-2) !important;
+}
+.background-pink-3 {
+  background: var(--pink-3) !important;
+}
+
+/* Gradient colors */
+.background-purple-pink-horizontal {
+  background: var(--purple-pink-horizontal) !important;
+}
+
+.background-purple-orange-horizontal {
+  background: var(--purple-orange-horizontal) !important;
+}
+
+.background-orange-yellow-horizontal {
+  background: var(--orange-yellow-horizontal) !important;
+}
+
+.background-ocean-teal-horizontal {
+  background: var(--ocean-teal-horizontal) !important;
+}
+
+.background-green-lime-horizontal {
+  background: var(--green-lime-horizontal) !important;
+}
+
+.background-chocolate-leather-horizontal {
+  background: var(--chocolate-leather-horizontal) !important;
+}
+
+.background-blue-cyan-horizontal {
+  background: var(--blue-cyan-horizontal) !important;
+}
+
+.background-blue-teal-horizontal {
+  background: var(--blue-teal-horizontal) !important;
+}
+
+.background-orange-pink-horizontal {
+  background: var(--orange-pink-horizontal) !important;
+}
+
+.background-purple-blue-horizontal {
+  background: var(--purple-blue-horizontal) !important;
+}
+
+.background-teal-pink-horizontal {
+  background: var(--teal-pink-horizontal) !important;
+}
+
+.background-leather-olive-horizontal {
+  background: var(--leather-olive-horizontal) !important;
+}
+
+.background-red-yellow-horizontal {
+  background: var(--red-yellow-horizontal) !important;
+}
+
+.background-lime-yellow-horizontal {
+  background: var(--lime-yellow-horizontal) !important;
+}
+
+.background-blue-1-ocean-horizontal {
+  background: var(--blue-1-ocean-horizontal) !important;
+}
+
+.background-blue-leaf-horizontal {
+  background: var(--blue-leaf-horizontal) !important;
+}
+
+.background-leaf-blue-horizontal {
+  background: var(--leaf-blue-horizontal) !important;
+}
+
+.background-dark-gray-horizontal {
+  background: var(--dark-gray-horizontal) !important;
+}
+
+.background-black-gray-1-horizontal {
+  background: var(--black-gray-1-horizontal) !important;
+}
+
+.background-snow-white-horizontal {
+  background: var(--snow-white-horizontal) !important;
+}
+
+.background-pearl-white-horizontal {
+  background: var(--pearl-white-horizontal) !important;
+}
+
+.background-pearl-snow-horizontal {
+  background: var(--pearl-snow-horizontal) !important;
+}
+
+.background-blue-1-snow-horizontal {
+  background: var(--blue-1-snow-horizontal) !important;
+}
+
+.background-blue-1-gray-horizontal {
+  background: var(--blue-1-gray-horizontal) !important;
+}
+
+.background-night-moon-horizontal {
+  background: var(--night-moon-horizontal) !important;
+}
+
+.background-black-night-moon-horizontal {
+  background: var(--black-night-moon-horizontal) !important;
+}
+
+.background-purple-pink-vertical {
+  background: var(--purple-pink-vertical) !important;
+}
+
+.background-purple-orange-vertical {
+  background: var(--purple-orange-vertical) !important;
+}
+
+.background-orange-yellow-vertical {
+  background: var(--orange-yellow-vertical) !important;
+}
+
+.background-ocean-teal-vertical {
+  background: var(--ocean-teal-vertical) !important;
+}
+
+.background-green-lime-vertical {
+  background: var(--green-lime-vertical) !important;
+}
+
+.background-chocolate-leather-vertical {
+  background: var(--chocolate-leather-vertical) !important;
+}
+
+.background-blue-cyan-vertical {
+  background: var(--blue-cyan-vertical) !important;
+}
+
+.background-blue-teal-vertical {
+  background: var(--blue-teal-vertical) !important;
+}
+
+.background-orange-pink-vertical {
+  background: var(--orange-pink-vertical) !important;
+}
+
+.background-purple-blue-vertical {
+  background: var(--purple-blue-vertical) !important;
+}
+
+.background-teal-pink-vertical {
+  background: var(--teal-pink-vertical) !important;
+}
+
+.background-leather-olive-vertical {
+  background: var(--leather-olive-vertical) !important;
+}
+
+.background-red-yellow-vertical {
+  background: var(--red-yellow-vertical) !important;
+}
+
+.background-lime-yellow-vertical {
+  background: var(--lime-yellow-vertical) !important;
+}
+
+.background-blue-1-ocean-vertical {
+  background: var(--blue-1-ocean-vertical) !important;
+}
+
+.background-blue-leaf-vertical {
+  background: var(--blue-leaf-vertical) !important;
+}
+
+.background-leaf-blue-vertical {
+  background: var(--leaf-blue-vertical) !important;
+}
+
+.background-dark-gray-vertical {
+  background: var(--dark-gray-vertical) !important;
+}
+
+.background-black-gray-1-vertical {
+  background: var(--black-gray-1-vertical) !important;
+}
+
+.background-snow-white-vertical {
+  background: var(--snow-white-vertical) !important;
+}
+
+.background-pearl-white-vertical {
+  background: var(--pearl-white-vertical) !important;
+}
+
+.background-pearl-snow-vertical {
+  background: var(--pearl-snow-vertical) !important;
+}
+
+.background-blue-1-snow-vertical {
+  background: var(--blue-1-snow-vertical) !important;
+}
+
+.background-blue-1-gray-vertical {
+  background: var(--blue-1-gray-vertical) !important;
+}
+
+.background-night-moon-vertical {
+  background: var(--night-moon-vertical) !important;
+}
+
+.background-black-night-moon-vertical {
+  background: var(--black-night-moon-vertical) !important;
+}
+
+.background-purple-pink-diagonal {
+  background: var(--purple-pink-diagonal) !important;
+}
+
+.background-purple-orange-diagonal {
+  background: var(--purple-orange-diagonal) !important;
+}
+
+.background-orange-yellow-diagonal {
+  background: var(--orange-yellow-diagonal) !important;
+}
+
+.background-ocean-teal-diagonal {
+  background: var(--ocean-teal-diagonal) !important;
+}
+
+.background-green-lime-diagonal {
+  background: var(--green-lime-diagonal) !important;
+}
+
+.background-chocolate-leather-diagonal {
+  background: var(--chocolate-leather-diagonal) !important;
+}
+
+.background-blue-cyan-diagonal {
+  background: var(--blue-cyan-diagonal) !important;
+}
+
+.background-blue-teal-diagonal {
+  background: var(--blue-teal-diagonal) !important;
+}
+
+.background-orange-pink-diagonal {
+  background: var(--orange-pink-diagonal) !important;
+}
+
+.background-purple-blue-diagonal {
+  background: var(--purple-blue-diagonal) !important;
+}
+
+.background-teal-pink-diagonal {
+  background: var(--teal-pink-diagonal) !important;
+}
+
+.background-leather-olive-diagonal {
+  background: var(--leather-olive-diagonal) !important;
+}
+
+.background-red-yellow-diagonal {
+  background: var(--red-yellow-diagonal) !important;
+}
+
+.background-lime-yellow-diagonal {
+  background: var(--lime-yellow-diagonal) !important;
+}
+
+.background-blue-1-ocean-diagonal {
+  background: var(--blue-1-ocean-diagonal) !important;
+}
+
+.background-blue-leaf-diagonal {
+  background: var(--blue-leaf-diagonal) !important;
+}
+
+.background-leaf-blue-diagonal {
+  background: var(--leaf-blue-diagonal) !important;
+}
+
+.background-dark-gray-diagonal {
+  background: var(--dark-gray-diagonal) !important;
+}
+
+.background-black-gray-1-diagonal {
+  background: var(--black-gray-1-diagonal) !important;
+}
+
+.background-snow-white-diagonal {
+  background: var(--snow-white-diagonal) !important;
+}
+
+.background-pearl-white-diagonal {
+  background: var(--pearl-white-diagonal) !important;
+}
+
+.background-pearl-snow-diagonal {
+  background: var(--pearl-snow-diagonal) !important;
+}
+
+.background-blue-1-snow-diagonal {
+  background: var(--blue-1-snow-diagonal) !important;
+}
+
+.background-blue-1-gray-diagonal {
+  background: var(--blue-1-gray-diagonal) !important;
+}
+
+.background-night-moon-diagonal {
+  background: var(--night-moon-diagonal) !important;
+}
+
+.background-black-night-moon-diagonal {
+  background: var(--black-night-moon-diagonal) !important;
+}

@@ -1,0 +1,44 @@
+@import './font-face.css';
+
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Global */
+  --font-family-default: 'Avenir Next', 'Avenir', 'Calibri', Tahoma, Arial, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  --font-family: var(--font-family-default);
+  --font-family-fat: 'Arial Black', var(--font-family-default);
+  --font-family-handwriting: 'Caveat', var(--font-family-default);
+  --font-family-comic-book: 'Anime Ace', var(--font-family-default);
+  --font-family-rounded: 'Gilroy', var(--font-family-default);
+ }
+
+/* 
+ * Classes
+ * -------
+ */
+
+html, body {
+  font-family: var(--font-family);
+}
+
+.font-family-default {
+  font-family: var(--font-family-default) !important;
+}
+
+.font-family-fat {
+  font-family: var(--font-family-fat) !important;
+}
+
+.font-family-handwriting {
+  font-family: var(--font-family-handwriting) !important;
+}
+
+.font-family-comic-book {
+  font-family: var(--font-family-comic-book) !important;
+}
+
+.font-family-rounded {
+  font-family: var(--font-family-rounded) !important;
+}

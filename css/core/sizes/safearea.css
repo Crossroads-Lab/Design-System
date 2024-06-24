@@ -1,0 +1,48 @@
+/*
+ * Safearea variables
+ * ------------------
+ */
+:root {
+  --safearea-top: env(safe-area-inset-top, 0px);
+  --safearea-bottom: env(safe-area-inset-bottom, 0px);
+  --safearea-left: env(safe-area-inset-left, 0px);
+  --safearea-right: env(safe-area-inset-right, 0px);
+  --safearea-horizontal: 0 var(--safe-area-left) 0 var(--safe-area-right);
+  --safearea-vertical: var(--safe-area-top) 0 var(--safe-area-bottom) 0;
+  --safearea: var(--safe-area-top) var(--safe-area-left) var(--safe-area-bottom) var(--safe-area-right);
+}
+
+/*
+ * Safearea classes
+ * ----------------
+ */
+
+.safearea-top {
+  padding-top: var(--safearea-top) !important;
+}
+
+.safearea-left {
+  padding-left: var(--safearea-left) !important;
+}
+
+.safearea-bottom {
+  padding-bottom: var(--safearea-bottom) !important;
+}
+
+.safearea-right {
+  padding-right: var(--safearea-right) !important;
+}
+
+.safearea-horizontal {
+  padding-left: var(--safearea-left) !important;
+  padding-right: var(--safearea-right) !important;
+}
+
+.safearea-vertical {
+  padding-top: var(--safearea-top) !important;
+  padding-bottom: var(--safearea-bottom) !important;
+}
+
+.safearea {
+  padding: var(--safearea) !important;
+}

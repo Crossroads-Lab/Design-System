@@ -1,0 +1,213 @@
+@import './margin.css';
+/*
+ * Margin variables
+ * ----------------
+ */
+:root {
+  /* Dynamic margin */
+  --margin: var(--padding);
+  --margin-horizontal: var(--margin);
+  --margin-vertical: var(--margin);
+  --margin-top: var(--margin-vertical);
+  --margin-left: var(--margin-horizontal);
+  --margin-bottom: var(--margin-vertical);
+  --margin-right: var(--margin-horizontal);
+
+  /* Calculated */
+  --margin-half: calc(0.5 * var(--margin));
+  --margin-2x: calc(2 * var(--margin));
+  --margin-3x: calc(3 * var(--margin));
+  --margin-4x: calc(4 * var(--margin));
+  --margin-horizontal-half: calc(0.5 * var(--margin-horizontal));
+  --margin-horizontal-2x: calc(2 * var(--margin-horizontal));
+  --margin-horizontal-3x: calc(3 * var(--margin-horizontal));
+  --margin-horizontal-4x: calc(4 * var(--margin-horizontal));
+  --margin-vertical-half: calc(0.5 * var(--margin-vertical));
+  --margin-vertical-2x: calc(2 * var(--margin-vertical));
+  --margin-vertical-3x: calc(3 * var(--margin-vertical));
+  --margin-vertical-4x: calc(4 * var(--margin-vertical));
+  --margin-top-half: calc(0.5 * var(--margin-top));
+  --margin-top-2x: calc(2 * var(--margin-top));
+  --margin-top-3x: calc(3 * var(--margin-top));
+  --margin-top-4x: calc(4 * var(--margin-top));
+  --margin-left-half: calc(0.5 * var(--margin-left));
+  --margin-left-2x: calc(2 * var(--margin-left));
+  --margin-left-3x: calc(3 * var(--margin-left));
+  --margin-left-4x: calc(4 * var(--margin-left));
+  --margin-bottom-half: calc(0.5 * var(--margin-bottom));
+  --margin-bottom-2x: calc(2 * var(--margin-bottom));
+  --margin-bottom-3x: calc(3 * var(--margin-bottom));
+  --margin-bottom-4x: calc(4 * var(--margin-bottom));
+  --margin-right-half: calc(0.5 * var(--margin-right));
+  --margin-right-2x: calc(2 * var(--margin-right));
+  --margin-right-3x: calc(3 * var(--margin-right));
+  --margin-right-4x: calc(4 * var(--margin-right));
+}
+
+/*
+ * Margin classes
+ * --------------
+ */
+.margin-none {
+  margin: 0 !important;
+}
+
+.margin {
+  margin: var(--margin) !important;
+}
+
+.margin-half {
+  margin: var(--margin-half) !important;
+}
+
+.margin-2x {
+  margin: var(--margin-2x) !important;
+}
+
+.margin-3x {
+  margin: var(--margin-3x) !important;
+}
+
+.margin-4x {
+  margin: var(--margin-4x) !important;
+}
+
+.margin-horizontal-none {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.margin-horizontal {
+  margin-left: var(--margin-horizontal) !important;
+  margin-right: var(--margin-horizontal) !important;
+}
+
+.margin-horizontal-half {
+  margin-left: var(--margin-horizontal-half) !important;
+  margin-right: var(--margin-horizontal-half) !important;
+}
+
+.margin-horizontal-2x {
+  margin-left: var(--margin-horizontal-2x) !important;
+  margin-right: var(--margin-horizontal-2x) !important;
+}
+
+.margin-horizontal-3x {
+  margin-left: var(--margin-horizontal-3x) !important;
+  margin-right: var(--margin-horizontal-3x) !important;
+}
+
+.margin-horizontal-4x {
+  margin-left: var(--margin-horizontal-4x) !important;
+  margin-right: var(--margin-horizontal-4x) !important;
+}
+
+.margin-vertical-none {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.margin-vertical {
+  margin-top: var(--margin-vertical) !important;
+  margin-bottom: var(--margin-vertical) !important;
+}
+
+.margin-vertical-half {
+  margin-top: var(--margin-vertical-half) !important;
+  margin-bottom: var(--margin-vertical-half) !important;
+}
+
+.margin-vertical-2x {
+  margin-top: var(--margin-vertical-2x) !important;
+  margin-bottom: var(--margin-vertical-2x) !important;
+}
+
+.margin-vertical-3x {
+  margin-top: var(--margin-vertical-3x) !important;
+  margin-bottom: var(--margin-vertical-3x) !important;
+}
+
+.margin-vertical-4x {
+  margin-top: var(--margin-vertical-4x) !important;
+  margin-bottom: var(--margin-vertical-4x) !important;
+}
+
+.margin-top {
+  margin-top: var(--margin-top) !important;
+}
+
+.margin-top-half {
+  margin-top: var(--margin-top-half) !important;
+}
+
+.margin-top-2x {
+  margin-top: var(--margin-top-2x) !important;
+}
+
+.margin-top-3x {
+  margin-top: var(--margin-top-3x) !important;
+}
+
+.margin-top-4x {
+  margin-top: var(--margin-top-4x) !important;
+}
+
+.margin-left {
+  margin-left: var(--margin-left) !important;
+}
+
+.margin-left-half {
+  margin-left: var(--margin-left-half) !important;
+}
+
+.margin-left-2x {
+  margin-left: var(--margin-left-2x) !important;
+}
+
+.margin-left-3x {
+  margin-left: var(--margin-left-3x) !important;
+}
+
+.margin-left-4x {
+  margin-left: var(--margin-left-4x) !important;
+}
+
+.margin-bottom {
+  margin-bottom: var(--margin-bottom) !important;
+}
+
+.margin-bottom-half {
+  margin-bottom: var(--margin-bottom-half) !important;
+}
+
+.margin-bottom-2x {
+  margin-bottom: var(--margin-bottom-2x) !important;
+}
+
+.margin-bottom-3x {
+  margin-bottom: var(--margin-bottom-3x) !important;
+}
+
+.margin-bottom-4x {
+  margin-bottom: var(--margin-bottom-4x) !important;
+}
+
+.margin-right {
+  margin-right: var(--margin-right) !important;
+}
+
+.margin-right-half {
+  margin-right: var(--margin-right-half) !important;
+}
+
+.margin-right-2x {
+  margin-right: var(--margin-right-2x) !important;
+}
+
+.margin-right-3x {
+  margin-right: var(--margin-right-3x) !important;
+}
+
+.margin-right-4x {
+  margin-right: var(--margin-right-4x) !important;
+}

@@ -1,0 +1,53 @@
+/*
+ * Border radius variables
+ * -----------------------
+ */
+:root {
+  /* Dynamic border radius */
+  --border-radius: 8px;
+  --border-radius-round: max(10000px, 100vh, 100vw);
+  --border-radius-smooth: 2px;
+  --border-radius-square: 0px;
+
+  /* Calculated */
+  --border-radius-half: calc(0.5 * var(--border-radius));
+  --border-radius-2x: calc(2 * var(--border-radius));
+  --border-radius-3x: calc(3 * var(--border-radius));
+  --border-radius-4x: calc(4 * var(--border-radius));
+}
+
+/*
+ * Border radius classes
+ * ---------------------
+ */
+.border-radius {
+  border-radius: var(--border-radius) !important;
+}
+
+.border-radius-square {
+  border-radius: var(--border-radius-square) !important;
+}
+
+.border-radius-round {
+  border-radius: var(--border-radius-round) !important;
+}
+
+.border-radius-smooth {
+  border-radius: var(--border-radius-smooth) !important;
+}
+
+.border-radius-half {
+  border-radius: var(--border-radius-half) !important;
+}
+
+.border-radius-2x {
+  border-radius: var(--border-radius-2x) !important;
+}
+
+.border-radius-3x {
+  border-radius: var(--border-radius-3x) !important;
+}
+
+.border-radius-4x {
+  border-radius: var(--border-radius-4x) !important;
+}

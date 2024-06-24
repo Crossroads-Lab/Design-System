@@ -1,0 +1,31 @@
+/*
+ * Viewport variables
+ * ------------------
+ */
+:root {
+  --vsx: 1;
+  --vsy: 1;
+  --vs: calc(var(--vsx, 1) * var(--vsy, 1));
+  --vw: calc(var(--vsx, 1) * 1dvw);
+  --vh: calc(var(--vsy, 1) * 1dvh);
+  --viewport-width: calc(100 * var(--vw, 1dvw));
+  --viewport-height: calc(100 * var(--vh, 1dvh));
+}
+
+/*
+ * Viewport classes
+ * ----------------
+ */
+.viewport-size,
+.viewport-width {
+  width: var(--viewport-width) !important;
+  min-width: var(--viewport-width) !important;
+  max-width: var(--viewport-width) !important;
+}
+
+.viewport-size,
+.viewport-height {
+  height: var(--viewport-height) !important;
+  min-height: var(--viewport-height) !important;
+  max-height: var(--viewport-height) !important;
+}

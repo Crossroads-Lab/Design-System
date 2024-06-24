@@ -1,0 +1,33 @@
+@import './viewport.css';
+
+/*
+ * Viewport variables
+ * ------------------
+ */
+:root {
+  --visual-viewport-width: var(--viewport-width);
+  --visual-viewport-height: var(--viewport-height);
+  --visual-viewport-scale: 1;
+  --visual-viewport-page-top: 0;
+  --visual-viewport-page-left: 0;
+  --visual-viewport-offset-top: 0;
+  --visual-viewport-offset-left: 0;
+}
+
+/*
+ * Viewport classes
+ * ----------------
+ */
+ .visual-viewport-size,
+.visual-viewport-width {
+  width: var(--visual-viewport-width);
+  min-width: var(--visual-viewport-width);
+  max-width: var(--visual-viewport-width);
+}
+
+.visual-viewport-size,
+.visual-viewport-height {
+  height: var(--visual-viewport-height);
+  min-height: var(--visual-viewport-height);
+  max-height: var(--visual-viewport-height);
+}

@@ -1,0 +1,94 @@
+@import './flat.css';
+@import './shade.css';
+
+/* Colors */
+:root {
+  /*
+   * Horizontal gradients
+   * --------------------
+   */
+  --purple-pink-horizontal: linear-gradient(0deg, var(--purple), var(--pink));
+  --purple-orange-horizontal: linear-gradient(0deg, var(--purple), var(--peach), var(--orange));
+  --orange-yellow-horizontal: linear-gradient(0deg, var(--orange), var(--yellow));
+  --ocean-teal-horizontal: linear-gradient(0deg, var(--ocean), var(--teal));
+  --green-lime-horizontal: linear-gradient(0deg, var(--green), var(--lime));
+  --chocolate-leather-horizontal: linear-gradient(0deg, var(--chocolate), var(--leather));
+  --blue-cyan-horizontal: linear-gradient(0deg, var(--blue), var(--cyan));
+  --blue-teal-horizontal: linear-gradient(0deg, var(--blue), var(--teal));
+  --orange-pink-horizontal: linear-gradient(0deg, var(--orange), var(--pink));
+  --purple-blue-horizontal: linear-gradient(0deg, var(--purple), var(--blue));
+  --teal-pink-horizontal: linear-gradient(0deg, var(--teal), var(--pink));
+  --leather-olive-horizontal: linear-gradient(0deg, var(--leather), var(--olive));
+  --red-yellow-horizontal: linear-gradient(0deg, var(--red), var(--yellow));
+  --lime-yellow-horizontal: linear-gradient(0deg, var(--lime), var(--yellow));
+  --blue-1-ocean-horizontal: linear-gradient(0deg, var(--blue-1), var(--ocean));
+  --blue-leaf-horizontal: linear-gradient(0deg, var(--blue), var(--leaf));
+  --leaf-blue-horizontal: linear-gradient(0deg, var(--leaf), var(--blue));
+  --dark-gray-horizontal: linear-gradient(0deg, var(--dark), var(--gray));
+  --black-gray-1-horizontal: linear-gradient(0deg, var(--black), var(--gray-1));
+  --snow-white-horizontal: linear-gradient(0deg, var(--snow), var(--white));
+  --pearl-white-horizontal: linear-gradient(0deg, var(--pearl), var(--white));
+  --pearl-snow-horizontal: linear-gradient(0deg, var(--pearl), var(--snow));
+  --night-moon-horizontal: linear-gradient(0deg, var(--night), var(--moon));
+  --black-night-moon-horizontal: linear-gradient(0deg, var(--black) 30%, var(--night) 60%, var(--moon) 100%);
+
+  /*
+   * Vertical gradients
+   * -------------------
+   */
+  --purple-pink-vertical: linear-gradient(90deg, var(--purple), var(--pink));
+  --purple-orange-vertical: linear-gradient(90deg, var(--purple), var(--peach), var(--orange));
+  --orange-yellow-vertical: linear-gradient(90deg, var(--orange), var(--yellow));
+  --ocean-teal-vertical: linear-gradient(90deg, var(--ocean), var(--teal));
+  --green-lime-vertical: linear-gradient(90deg, var(--green), var(--lime));
+  --chocolate-leather-vertical: linear-gradient(90deg, var(--chocolate), var(--leather));
+  --blue-cyan-vertical: linear-gradient(90deg, var(--blue), var(--cyan));
+  --blue-teal-vertical: linear-gradient(90deg, var(--blue), var(--teal));
+  --orange-pink-vertical: linear-gradient(90deg, var(--orange), var(--pink));
+  --purple-blue-vertical: linear-gradient(90deg, var(--purple), var(--blue));
+  --teal-pink-vertical: linear-gradient(90deg, var(--teal), var(--pink));
+  --leather-olive-vertical: linear-gradient(90deg, var(--leather), var(--olive));
+  --red-yellow-vertical: linear-gradient(90deg, var(--red), var(--yellow));
+  --lime-yellow-vertical: linear-gradient(90deg, var(--lime), var(--yellow));
+  --blue-1-ocean-vertical: linear-gradient(90deg, var(--blue-1), var(--ocean));
+  --blue-leaf-vertical: linear-gradient(90deg, var(--blue), var(--leaf));
+  --leaf-blue-vertical: linear-gradient(90deg, var(--leaf), var(--blue));
+  --dark-gray-vertical: linear-gradient(90deg, var(--dark), var(--gray));
+  --black-gray-1-vertical: linear-gradient(90deg, var(--black), var(--gray-1));
+  --snow-white-vertical: linear-gradient(90deg, var(--snow), var(--white));
+  --pearl-white-vertical: linear-gradient(90deg, var(--pearl), var(--white));
+  --pearl-snow-vertical: linear-gradient(90deg, var(--pearl), var(--snow));
+  --night-moon-vertical: linear-gradient(90deg, var(--night), var(--moon));
+  --black-night-moon-vertical: linear-gradient(90deg, var(--black) 30%, var(--night) 60%, var(--moon) 100%);
+
+   /*
+   * Diagonal gradients
+   * ------------------
+   */
+  --purple-pink-diagonal: linear-gradient(45deg, var(--purple), var(--pink));
+  --purple-orange-diagonal: linear-gradient(45deg, var(--purple), var(--peach), var(--orange));
+  --orange-yellow-diagonal: linear-gradient(45deg, var(--orange), var(--yellow));
+  --ocean-teal-diagonal: linear-gradient(45deg, var(--ocean), var(--teal));
+  --green-lime-diagonal: linear-gradient(45deg, var(--green), var(--lime));
+  --chocolate-leather-diagonal: linear-gradient(45deg, var(--chocolate), var(--leather));
+  --blue-cyan-diagonal: linear-gradient(45deg, var(--blue), var(--cyan));
+  --blue-teal-diagonal: linear-gradient(45deg, var(--blue), var(--teal));
+  --orange-pink-diagonal: linear-gradient(45deg, var(--orange), var(--pink));
+  --purple-blue-diagonal: linear-gradient(45deg, var(--purple), var(--blue));
+  --teal-pink-diagonal: linear-gradient(45deg, var(--teal), var(--pink));
+  --leather-olive-diagonal: linear-gradient(45deg, var(--leather), var(--olive));
+  --red-yellow-diagonal: linear-gradient(45deg, var(--red), var(--yellow));
+  --lime-yellow-diagonal: linear-gradient(45deg, var(--lime), var(--yellow));
+  --blue-1-ocean-diagonal: linear-gradient(45deg, var(--blue-1), var(--ocean));
+  --blue-leaf-diagonal: linear-gradient(45deg, var(--blue), var(--leaf));
+  --leaf-blue-diagonal: linear-gradient(45deg, var(--leaf), var(--blue));
+  --dark-gray-diagonal: linear-gradient(45deg, var(--dark), var(--gray));
+  --black-gray-1-diagonal: linear-gradient(45deg, var(--black), var(--gray-1));
+  --snow-white-diagonal: linear-gradient(45deg, var(--snow), var(--white));
+  --pearl-white-diagonal: linear-gradient(45deg, var(--pearl), var(--white));
+  --pearl-snow-diagonal: linear-gradient(45deg, var(--pearl), var(--snow));
+  --blue-1-snow-diagonal: linear-gradient(45deg, var(--blue-1), var(--snow));
+  --blue-1-gray-diagonal: linear-gradient(45deg, var(--blue-1), var(--gray));
+  --night-moon-diagonal: linear-gradient(45deg, var(--night), var(--moon));
+  --black-night-moon-diagonal: linear-gradient(45deg, var(--black) 30%, var(--night) 60%, var(--moon) 100%);
+}

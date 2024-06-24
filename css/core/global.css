@@ -1,0 +1,37 @@
+@import './sizes/viewport.css';
+
+/* Global styles */
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  overflow-anchor: auto;
+  scroll-behavior: smooth;
+}
+
+*:not(img):not(video):not(canvas) {
+  overflow: visible;
+}
+
+*:focus {
+  outline: none;
+  outline-style: none;
+}
+
+/* Html, body, etc styles */
+html,
+body {
+  min-height: -webkit-fill-available;
+  background-color:black;
+  color:white;
+  font-weight: normal;
+  width: var(--viewport-width);
+  height: var(--viewport-height);
+}
+
+html,
+body,
+table,
+.space-around-none {
+  margin: 0;
+  padding: 0;
+}

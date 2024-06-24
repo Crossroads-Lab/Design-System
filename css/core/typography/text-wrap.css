@@ -1,0 +1,24 @@
+/* 
+ * Classes
+ * -------
+ */
+.text-wrap-balance {
+  text-wrap: balance !important;
+}
+
+.text-wrap-nowrap {
+  text-wrap: nowrap !important;
+  white-space: nowrap !important;
+}
+
+.text-wrap-wrap {
+  text-wrap: wrap !important;
+}
+
+.text-wrap-pretty {
+  text-wrap: pretty !important;
+}
+
+.text-wrap-stable {
+  text-wrap: stable !important;
+}

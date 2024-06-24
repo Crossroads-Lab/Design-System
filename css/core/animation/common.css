@@ -1,0 +1,9 @@
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Properties */
+  --animation-time: 300ms;
+  --transition-time: 300ms;
+}

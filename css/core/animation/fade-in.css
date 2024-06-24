@@ -1,0 +1,25 @@
+.fade-in-animation {
+  --animation-time: 3s;
+  animation: fade-in-animation var(--animation-time);
+  opacity: 1;
+}
+
+@keyframes wait-fade-in-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

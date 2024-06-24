@@ -1,0 +1,147 @@
+/*
+ * Width variables
+ * ---------------
+ */
+:root {
+  --width-375px: min(100%, 375px);
+  --width-420px: min(100%, 420px);
+  --width-640px: min(100%, 640px);
+  --width-768px: min(100%, 768px);
+  --width-1024px: min(100%, 1024px);
+  --width-1280px: min(100%, 1280px);
+  --width-1536px: min(100%, 1536px);
+  --width-mobile-min: var(--width-375px);
+  --width-10-percent: max(10%, var(--width-mobile-min));
+  --width-20-percent: max(20%, var(--width-mobile-min));
+  --width-25-percent: max(25%, var(--width-mobile-min));
+  --width-30-percent: max(30%, var(--width-mobile-min));
+  --width-40-percent: max(40%, var(--width-mobile-min));
+  --width-50-percent: max(50%, var(--width-mobile-min));
+  --width-60-percent: max(60%, var(--width-mobile-min));
+  --width-70-percent: max(70%, var(--width-mobile-min));
+  --width-75-percent: max(75%, var(--width-mobile-min));
+  --width-80-percent: max(80%, var(--width-mobile-min));
+  --width-90-percent: max(90%, var(--width-mobile-min));
+  --width-100-percent: 100%;
+}
+
+/*
+ * Width classes
+ * -------------
+ */
+.width-10-percent {
+  width: var(--width-10-percent);
+  min-width: var(--width-10-percent);
+  max-width: var(--width-10-percent);
+}
+
+.width-20-percent {
+  width: var(--width-20-percent);
+  min-width: var(--width-20-percent);
+  max-width: var(--width-20-percent);
+}
+
+.width-25-percent {
+  width: var(--width-25-percent);
+  min-width: var(--width-25-percent);
+  max-width: var(--width-25-percent);
+}
+
+.width-30-percent {
+  width: var(--width-30-percent);
+  min-width: var(--width-30-percent);
+  max-width: var(--width-30-percent);
+}
+
+.width-40-percent {
+  width: var(--width-40-percent);
+  min-width: var(--width-40-percent);
+  max-width: var(--width-40-percent);
+}
+
+.width-half,
+.width-50-percent {
+  width: var(--width-50-percent);
+  min-width: var(--width-50-percent);
+  max-width: var(--width-50-percent);
+}
+
+.width-60-percent {
+  width: var(--width-60-percent);
+  min-width: var(--width-60-percent);
+  max-width: var(--width-60-percent);
+}
+
+.width-70-percent {
+  width: var(--width-70-percent);
+  min-width: var(--width-70-percent);
+  max-width: var(--width-70-percent);
+}
+
+.width-75-percent {
+  width: var(--width-75-percent);
+  min-width: var(--width-75-percent);
+  max-width: var(--width-75-percent);
+}
+
+.width-80-percent {
+  width: var(--width-80-percent);
+  min-width: var(--width-80-percent);
+  max-width: var(--width-80-percent);
+}
+
+.width-90-percent {
+  width: var(--width-90-percent);
+  min-width: var(--width-90-percent);
+  max-width: var(--width-90-percent);
+}
+
+.width-100-percent,
+.full,
+.full-width {
+  width: var(--width-100-percent);
+  min-width: var(--width-100-percent);
+  max-width: var(--width-100-percent);
+}
+
+.width-375px {
+  width: var(--width-375px);
+  min-width: var(--width-375px);
+  max-width: var(--width-375px);
+}
+
+.width-420px {
+  width: var(--width-420px);
+  min-width: var(--width-420px);
+  max-width: var(--width-420px);
+}
+
+.width-640px {
+  width: var(--width-640px);
+  min-width: var(--width-640px);
+  max-width: var(--width-640px);
+}
+
+.width-768px {
+  width: var(--width-768px);
+  min-width: var(--width-768px);
+  max-width: var(--width-768px);
+}
+
+.width-1024px {
+  width: var(--width-1024px);
+  min-width: var(--width-1024px);
+  max-width: var(--width-1024px);
+}
+
+.width-1280px {
+  width: var(--width-1280px);
+  min-width: var(--width-1280px);
+  max-width: var(--width-1280px);
+}
+
+.width-1536px {
+  width: var(--width-1536px);
+  min-width: var(--width-1536px);
+  max-width: var(--width-1536px);
+}

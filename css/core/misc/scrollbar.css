@@ -1,0 +1,41 @@
+:root {
+  --scrollbar-width: thin;
+  --scrollbar-color: #878787AA transparent;
+}
+
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  * {
+    scrollbar-width: var(--scrollbar-width);
+    scrollbar-color: var(--scrollbar-color);
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+  }
+}
+
+/* Responsive styles */
+@media (hover: none), (pointer: coarse) {
+  /*
+   * Hide scroll bar
+   * ---------------
+   */
+  /* Safari and Chrome */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  * {
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+  }
+}

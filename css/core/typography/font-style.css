@@ -1,0 +1,16 @@
+/* 
+ * Classes
+ * -------
+ */
+
+.font-style-normal {
+  font-style: normal !important;
+}
+
+.font-style-italic {
+  font-style: italic !important;
+}
+
+.font-style-oblique {
+  font-style: oblique !important;
+}

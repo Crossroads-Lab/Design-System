@@ -1,0 +1,20 @@
+/* 
+ * Classes
+ * -------
+ */
+
+.text-transform-none {
+  text-transform: none !important;
+}
+
+.text-transform-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-transform-lowercase {
+  text-transform: lowercase !important;
+}

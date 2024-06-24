@@ -1,0 +1,35 @@
+.pointer-events-none  {
+  pointer-events: none !important;
+}
+
+.pointer-events-all {
+  pointer-events: all !important;
+}
+
+.pointer-events-fill {
+  pointer-events: fill !important;
+}
+
+.pointer-events-stroke {
+  pointer-events: stroke !important;
+}
+
+.pointer-events-painted {
+  pointer-events: painted !important;
+}
+
+.pointer-events-visible {
+  pointer-events: visible !important;
+}
+
+.pointer-events-visible-fill {
+  pointer-events: visibleFill !important;
+}
+
+.pointer-events-visible-painted {
+  pointer-events: visiblePainted !important;
+}
+
+.pointer-events-visible-stroke {
+  pointer-events: visibleStroke !important;
+}

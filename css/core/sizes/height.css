@@ -1,0 +1,78 @@
+/*
+ * Height classes
+ * -------------
+ */
+.height-10-percent {
+  height: 10%;
+  min-height: 10%;
+  max-height: 10%;
+}
+
+.height-20-percent {
+  height: 20%;
+  min-height: 20%;
+  max-height: 20%;
+}
+
+.height-25-percent {
+  height: 25%;
+  min-height: 25%;
+  max-height: 25%;
+}
+
+.height-30-percent {
+  height: 30%;
+  min-height: 30%;
+  max-height: 30%;
+}
+
+.height-40-percent {
+  height: 40%;
+  min-height: 40%;
+  max-height: 40%;
+}
+
+.height-half,
+.height-50-percent {
+  height: 50%;
+  min-height: 50%;
+  max-height: 50%;
+}
+
+.height-60-percent {
+  height: 60%;
+  min-height: 60%;
+  max-height: 60%;
+}
+
+.height-70-percent {
+  height: 70%;
+  min-height: 70%;
+  max-height: 70%;
+}
+
+.height-75-percent {
+  height: 75%;
+  min-height: 75%;
+  max-height: 75%;
+}
+
+.height-80-percent {
+  height: 80%;
+  min-height: 80%;
+  max-height: 80%;
+}
+
+.height-90-percent {
+  height: 90%;
+  min-height: 90%;
+  max-height: 90%;
+}
+
+.height-100-percent,
+.full,
+.full-height {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
