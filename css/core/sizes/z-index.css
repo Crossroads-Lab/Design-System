@@ -1,5 +1,10 @@
+:root {
+  --z-index-min: -2147483647;
+  --z-index-max: 2147483647;
+}
+
 .z-index-min {
-  z-index: -2147483647 !important;
+  z-index: var(--z-index-min) !important;
 }
 
 .z-index-0,
@@ -48,5 +53,5 @@
 }
 
 .z-index-max {
-  z-index: 2147483647 !important;
+  z-index: var(--z-index-max) !important;
 }
