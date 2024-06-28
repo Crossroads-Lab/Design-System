@@ -44,8 +44,10 @@
   --size-24-36: min(max(calc(3.6254 * var(--size-unit)), 24px), 36px);
   --size-20-40: min(max(calc(3.6254 * var(--size-unit)), 20px), 40px);
   --size-24-32: min(max(calc(3.3837 * var(--size-unit)), 24px), 32px);
+  --size-24-28: min(max(calc(3.1420 * var(--size-unit)), 24px), 28px);
   --size-20-32: min(max(calc(3.1420 * var(--size-unit)), 20px), 32px);
   --size-22-28: min(max(calc(3.0211 * var(--size-unit)), 22px), 28px);
+  --size-20-28: min(max(calc(2.9003 * var(--size-unit)), 20px), 28px);
   --size-20-24: min(max(calc(2.6586 * var(--size-unit)), 20px), 24px);
   --size-18-26: min(max(calc(2.6586 * var(--size-unit)), 18px), 26px);
   --size-18-24: min(max(calc(2.5378 * var(--size-unit)), 18px), 24px);
