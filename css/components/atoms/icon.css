@@ -4,8 +4,7 @@
  * Classes
  * -------
  */
-.icon-container .icon,
-.icon-container img,
+.icon-container,
 .icon {
   --_size: var(--size-20-24);
   --_max-width: calc(6 * var(--_size));
@@ -28,23 +27,20 @@
   min-width: var(--_size);
 }
 
-.icon-container .icon.small,
 .icon-container img.small,
-.icon-container.small img,
+.icon-container.small,
 .icon.small {
   --_size: var(--size-12-18);
 }
 
-.icon-container .icon.large,
 .icon-container img.large,
-.icon-container.large img,
+.icon-container.large,
 .icon.large {
   --_size: var(--size-24-32);
 }
 
-.icon-container .icon.xlarge,
 .icon-container img.xlarge,
-.icon-container.xlarge img,
+.icon-container.xlarge,
 .icon.xlarge {
   --_size: var(--size-32-48);
 }
