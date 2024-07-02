@@ -7,7 +7,7 @@
 .icon-container,
 .icon {
   --_size: var(--size-20-24);
-  --_max-width: calc(6 * var(--_size));
+  --_max-width: calc(8 * var(--_size));
 }
 
 .icon-container img,
