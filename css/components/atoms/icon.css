@@ -5,10 +5,12 @@
  * -------
  */
 .icon-container .icon,
+.icon-container img,
 .icon {
   --_size: var(--size-20-24);
 }
 
+.icon-container img,
 .icon {
   height: var(--_size);
   min-width: auto;
@@ -25,11 +27,15 @@
 }
 
 .icon-container .icon.small,
+.icon-container img.small,
+.icon-container.small img,
 .icon.small {
   --_size: var(--size-12-18);
 }
 
 .icon-container .icon.large,
+.icon-container img.large,
+.icon-container.large img,
 .icon.large {
   --_size: var(--size-24-32);
 }
