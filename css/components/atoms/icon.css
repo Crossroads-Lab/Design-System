@@ -39,3 +39,10 @@
 .icon.large {
   --_size: var(--size-24-32);
 }
+
+.icon-container .icon.xlarge,
+.icon-container img.xlarge,
+.icon-container.xlarge img,
+.icon.xlarge {
+  --_size: var(--size-32-48);
+}
