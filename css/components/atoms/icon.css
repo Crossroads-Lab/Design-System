@@ -8,6 +8,7 @@
 .icon-container img,
 .icon {
   --_size: var(--size-20-24);
+  --_max-width: calc(6 * var(--_size));
 }
 
 .icon-container img,
@@ -16,6 +17,7 @@
   min-width: auto;
   min-height: auto;
   width: auto;
+  max-width: var(--_max-width);
   padding: 0;
 }
 
