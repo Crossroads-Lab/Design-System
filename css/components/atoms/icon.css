@@ -11,7 +11,6 @@
 
 .icon {
   height: var(--_size);
-  max-height: var(--_size);
   min-width: auto;
   min-height: auto;
   width: auto;
