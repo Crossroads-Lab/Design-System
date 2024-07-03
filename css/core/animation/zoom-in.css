@@ -1,0 +1,65 @@
+.zoom-in-animation {
+  --animation-time: 20s;
+  --transition-time: 1s;
+  --_start-transform: none;
+  --_end-transform: scale(1.1);
+  animation: zoom-in-animation var(--animation-time);
+  transform: var(--_end-transform);
+  transition: var(--transition-time);
+}
+
+.zoom-in-animation.origin-top {
+  transform-origin: top;
+}
+
+.zoom-in-animation.origin-left {
+  transform-origin: left;
+}
+
+.zoom-in-animation.origin-bottom {
+  transform-origin: bottom;
+}
+
+.zoom-in-animation.origin-right {
+  transform-origin: bottom;
+}
+
+.zoom-in-animation.origin-left-top,
+.zoom-in-animation.origin-top-left {
+  transform-origin: top left;
+}
+
+.zoom-in-animation.origin-right-top,
+.zoom-in-animation.origin-top-right {
+  transform-origin: top right;
+}
+
+.zoom-in-animation.origin-left-bottom,
+.zoom-in-animation.origin-bottom-left {
+  transform-origin: bottom left;
+}
+
+.zoom-in-animation.origin-right-bottom,
+.zoom-in-animation.origin-bottom-right {
+  transform-origin: bottom right;
+}
+
+@keyframes wait-zoom-in-animation {
+  from {
+    transform: var(--_start-transform);
+  }
+
+  to {
+    transform: var(--_start-transform);
+  }
+}
+
+@keyframes zoom-in-animation {
+  from {
+    transform: var(--_start-transform);
+  }
+
+  to {
+    transform: var(--_end-transform);
+  }
+}
