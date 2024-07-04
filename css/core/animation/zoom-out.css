@@ -5,7 +5,7 @@
   --_end-transform: none;
   animation: zoom-out-animation var(--animation-time);
   transform: var(--_end-transform);
-  transition: var(--transition-time);
+  transition: transform var(--transition-time);
 }
 
 .zoom-out-animation.origin-top {
