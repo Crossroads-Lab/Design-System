@@ -1,43 +1,65 @@
 /* 
+ * Props
+ * -----
+ */
+ :root {
+  --font-weight-ultra-thin: 100;
+  --font-weight-extra-thin: var(--font-weight-ultra-thin);
+  --font-weight-ultra-light: var(--font-weight-ultra-thin);
+  --font-weight-thin: 200;
+  --font-weight-light: 300;
+  --font-weight-semi-thin: var(--font-weight-light);
+  --font-weight-regular: 400;
+  --font-weight-normal: var(--font-weight-regular);
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-ultra-bold: var(--font-weight-extra-bold);
+  --font-weight-heavy: 900;
+}
+
+/* 
  * Classes
  * -------
  */
 .font-weight-extra-thin,
 .font-weight-ultra-thin,
 .font-weight-ultra-light {
-  font-weight: 100 !important;
+  font-weight: var(--font-weight-ultra-thin) !important;
 }
 
 .font-weight-thin {
-  font-weight: 200 !important;
+  font-weight: var(--font-weight-thin) !important;
 }
 
 .font-weight-light,
 .font-weight-semi-thin {
-  font-weight: 300 !important;
+  font-weight: var(--font-weight-light) !important;
 }
 
+.font-weight-normal,
 .font-weight-regular {
-  font-weight: 400 !important;
+  font-weight: var(--font-weight-regular) !important;
 }
 
 .font-weight-medium {
-  font-weight: 500 !important;
+  font-weight: var(--font-weight-medium) !important;
 }
 
 .font-weight-semi-bold {
-  font-weight: 600 !important;
+  font-weight: var(--font-weight-semi-bold) !important;
 }
 
 .font-weight-bold {
-  font-weight: 700 !important;
+  font-weight: var(--font-weight-bold) !important;
 }
 
 .font-weight-extra-bold,
 .font-weight-ultra-bold {
-  font-weight: 800 !important;
+  font-weight: var(--font-weight-extra-bold) !important;
 }
 
 .font-weight-heavy {
-  font-weight: 900 !important;
+  font-weight: var(--font-weight-heavy) !important;
 }
